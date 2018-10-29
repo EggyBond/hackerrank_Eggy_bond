@@ -19,7 +19,7 @@ Array and String
 | [Reverse Array](https://www.hackerrank.com/challenges/reverse-array-c/problem ) | [Solution.c](https://github.com/EggyBond/hackerrank_Eggy_bond/blob/master/Hackerrank%20Project/Array_Reversal.c)  |
 | [Making Anagram](https://www.hackerrank.com/challenges/ctci-making-anagrams/problem)  | [Solution.c](https://github.com/EggyBond/hackerrank_Eggy_bond/blob/master/Hackerrank%20Project/Make_Anagram.c)  |
 | [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem)  | [Solution.c](https://github.com/EggyBond/hackerrank_Eggy_bond/blob/master/Hackerrank%20Project/Apple_and_Orange.c)  |
-| [Encryption](https://www.hackerrank.com/challenges/encryption/problem)  | [Solution.php](https://github.com/EggyBond/hackerrank_Eggy_bond/blob/master/Hackerrank%20Project/Encryption.c)  |
+| [Encryption](https://www.hackerrank.com/challenges/encryption/problem)  | [Solution.php](https://github.com/EggyBond/hackerrank_Eggy_bond/blob/master/Hackerrank%20Project/Encryption.php)  |
 | [Sherlock and Anagram](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem)  | [Solution.php](https://github.com/EggyBond/hackerrank_Eggy_bond/blob/master/Hackerrank%20Project/Sherlock_and_Anagram.php)  |
 
 Data Structure
