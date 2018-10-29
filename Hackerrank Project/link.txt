@@ -1,0 +1,30 @@
+Warmup
+
+https://www.hackerrank.com/challenges/a-very-big-sum/problem
+
+https://www.hackerrank.com/challenges/diagonal-difference/problem
+
+https://www.hackerrank.com/challenges/plus-minus/problem
+
+https://www.hackerrank.com/challenges/staircase/problem
+
+https://www.hackerrank.com/challenges/mini-max-sum/problem
+
+Implementation
+https://www.hackerrank.com/challenges/apple-and-orange/problem
+
+Array and String
+https://www.hackerrank.com/challenges/reverse-array-c/problem 
+
+https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem
+
+https://www.hackerrank.com/challenges/ctci-making-anagrams/problem
+
+Data Structure
+https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem
+
+https://www.hackerrank.com/challenges/2d-array/problem
+
+https://www.hackerrank.com/challenges/maximum-element/problem
+
+https://www.hackerrank.com/challenges/tree-preorder-traversal/problem
