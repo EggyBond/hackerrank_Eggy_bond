@@ -15,10 +15,12 @@ char** split_string(char*);
 void miniMaxSum(int arr_count, int* arr) {
     long  sum[arr_count];
 
+	//inisiasi nilai dari variabel array sum
     for (int i = 0; i < arr_count; i++){
         sum[i]=0;
     }   
     
+	//melakukan penjumlahan
     for (int i = 0; i < arr_count; i++){
         for (int j = 0; j < arr_count; j++){
             if (i != j){
@@ -26,8 +28,12 @@ void miniMaxSum(int arr_count, int* arr) {
             }
         }
     }
+	
+	//inisasi nilai max dan nilai min
     long max = sum[0];
     long min = sum[0];
+	
+	//menghitung nilai max dan nilai min
     for (int i = 0; i < arr_count; i++){
         if(sum[i]>max){
             max = sum[i];

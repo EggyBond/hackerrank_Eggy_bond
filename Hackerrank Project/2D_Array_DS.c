@@ -13,8 +13,10 @@ char** split_string(char*);
 
 // Complete the hourglassSum function below.
 int hourglassSum(int arr_rows, int arr_columns, int** arr) {
+	//inisiasi nilai maximum
     int max = arr[0][0] + arr[0][1] + arr[0][2] + arr[1][1] + arr[2][0] + arr[2][1] + arr[2][2];
     
+	//pengulangan untuk menhitung nilai sum dan mencari nilai max
     for (int row = 0; row < 4; row++) {
         for (int col = 0; col < 4; col++) {
             int sum = arr[row+0][col+0] + arr[row+0][col+1] + arr[row+0][col+2] + arr[row+1][col+1] + arr[row+2][col+0] + arr[row+2][col+1] + arr[row+2][col+2];

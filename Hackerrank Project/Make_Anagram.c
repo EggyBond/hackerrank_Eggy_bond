@@ -12,26 +12,29 @@ char* readline();
 
 // Complete the makeAnagram function below.
 int makeAnagram(char* a, char* b) {
+	//inisiasi variabel jumlahA dan jumlahB untuk menyimpan jumlah huruf dari string a dan b
     int jumlahA[26];
     int jumlahB[26];
-    int hilangkan = 0;
+    //inisasi variabel hilangkan untuk menyimpan jumlah huruf yang harus dihilangkan untuk membentuk anagaram
+	int hilangkan = 0;
+	
+	//inisiasi nilai jumlahA dan jumlahB
     for(int i = 0; i < 26; i++){
         jumlahA[i] = 0;
         jumlahB[i] = 0;
-    } 
+    }
+
+	//menghitung jumlah karakter dari string a dan string b
     for(int i = 0; i < strlen(a); i++){
         jumlahA[a[i] - 'a']++;
-        //printf("%c %d ", a[i], jumlahA[a[i] - 'a']);
     }
-    //printf("\n");
     for(int i = 0; i < strlen(b); i++){
         jumlahB[b[i] - 'a']++;
-        //printf("%c %d ", b[i], jumlahB[b[i] - 'a']);
     }
-    //printf("\n");
+	
+	//menghitung jumlah hufur yang berbeda dari string a dan string b
     for(int i = 0; i < 26; i++){
         hilangkan = hilangkan + abs(jumlahB[i] - jumlahA[i]);
-        //printf("%d %d \n", jumlahB[i], jumlahA[i]);
     }
     return hilangkan;
 }

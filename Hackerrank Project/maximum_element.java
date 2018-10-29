@@ -5,13 +5,14 @@ public class Solution {
 
     public static void main(String[] args) {
         Stack<Integer> stack    = new Stack<Integer>();
-        Stack<Integer> maxStack = new Stack<Integer>(); // keeps track of maximums
+        Stack<Integer> maxStack = new Stack<Integer>(); // untuk menyimpan nilai maksimum
 
         Scanner scan = new Scanner(System.in);
         int N = scan.nextInt();
         
         for (int i = 0; i < N; i++) {
             int query = scan.nextInt();
+			//melakukan klasifikasi perintah yang dilakukan
             switch (query) {
                 case 1:
                     int x = scan.nextInt();

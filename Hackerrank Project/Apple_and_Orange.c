@@ -7,15 +7,18 @@ vector<string> split_string(string);
 // Complete the countApplesAndOranges function below.
 void countApplesAndOranges(int s, int t, int a, int b, vector<int> apples, vector<int> oranges) {
 
+	//inisiasi jumlah apel dan jeruk
     int AppleCount = 0;
     int OrangeCount = 0;
     for (int i = 0; i < apples.size(); i++){
+		//jika apel masuk ke daerah s dan t
         if ((apples[i]+a >= s) && (apples[i]+a <= t)){
           AppleCount ++;  
         }
         
     }
     for (int j = 0; j < oranges.size(); j++){
+		//jika jeruk masuk ke daerah s dan t
         if ((oranges[j]+b >= s) && (oranges[j]+b <= t)){
           OrangeCount ++;  
         }

@@ -16,6 +16,8 @@ void plusMinus(int arr_count, int* arr) {
     float sum_pos = 0.0;
     float sum_neg = 0.0;
     float sum_zer = 0.0;
+	
+	//menghitun jumlah bilangan negatif, positif dan bilangan nol
     for (int i = 0;i < arr_count; i ++){
         if (arr[i] < 0) {
             sum_neg ++;
@@ -25,6 +27,7 @@ void plusMinus(int arr_count, int* arr) {
             sum_pos ++;
         }
     }
+	
     float frac_pos = sum_pos/arr_count;
     float frac_neg = sum_neg/arr_count;
     float frac_zer = sum_zer/arr_count;
