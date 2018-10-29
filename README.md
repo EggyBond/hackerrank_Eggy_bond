@@ -27,6 +27,6 @@ Data Structure
 | Problem  | Solution |
 | ------------- | ------------- |
 | [Print Element of Linked List](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem) | [Solution.java](https://github.com/EggyBond/hackerrank_Eggy_bond/blob/master/Hackerrank%20Project/Print_the_Element_of_Linked_List.java)  |
-| [2D Array](https://www.hackerrank.com/challenges/2d-array/problem)  | [Solution.java](https://github.com/EggyBond/hackerrank_Eggy_bond/blob/master/Hackerrank%20Project/2D_Array_DS.c)  |
+| [2D Array](https://www.hackerrank.com/challenges/2d-array/problem)  | [Solution.c](https://github.com/EggyBond/hackerrank_Eggy_bond/blob/master/Hackerrank%20Project/2D_Array_DS.c)  |
 | [Maximum Element](https://www.hackerrank.com/challenges/maximum-element/problem)  | [Solution.java](https://github.com/EggyBond/hackerrank_Eggy_bond/blob/master/Hackerrank%20Project/maximum_element.java)  |
 | [Tree: Preorder Traversal](https://www.hackerrank.com/challenges/tree-preorder-traversal/problem)  | [Solution.java](https://github.com/EggyBond/hackerrank_Eggy_bond/blob/master/Hackerrank%20Project/Preorder_Traversal.java)  |
