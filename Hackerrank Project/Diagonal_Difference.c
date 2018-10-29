@@ -15,7 +15,7 @@ char** split_string(char*);
 int diagonalDifference(int arr_rows, int arr_columns, int** arr) {
     int sum_primary = 0;
     int sum_secondary = 0;
-	//menghitung jumlah primary diagonal dan seconday diagonal kiri dair array arr
+	//menghitung jumlah primary diagonal dan seconday diagonal dari array arr
     for (int i = 0; i <arr_columns; i++){
         for (int j = 0;j < arr_columns; j++){
 			//primary diagonal
